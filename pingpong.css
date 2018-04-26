@@ -1,0 +1,48 @@
+#game {
+	background: #daeff5;
+	width:700px;
+	height: 700px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 5px;
+	border: 2px solid #ffffff
+        
+}
+#ball {
+	background: #ed3700;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 490px;
+	top: 400px;
+	border-radius: 10px;
+	border: 1px solid #000000;
+}
+.paddle {
+	background: #d5d3d3;
+	position: absolute;
+	left: 35px;
+	top: 100px;
+	width: 15px;
+	height: 70px;
+	border-radius: 5px;
+	border: 1px solid #000000
+}
+#paddleB {
+	left: 645px;
+}
+
+#canvas_parent{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+ video, canvas {
+
+   width:600px;
+	height: 450px;
+   
+    position: absolute;
+  }
+
